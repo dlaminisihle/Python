@@ -16,13 +16,13 @@ tangent: tan(rad)
 square root: sqrt(n)
 pi: 3.141......
 """
-
+#importing here
 import math
 
 def main():
     
     def calc(k):
-
+#initiation of variables
         functions = ['sin', 'cos', 'tan', 'sqrt', 'pi']    
         
         for i in functions:
@@ -43,7 +43,7 @@ def main():
 
 
     print ("\nScientific Calculator\nEg: pi * sin(90) - sqrt(81)")
-
+#function selection
     k = raw_input("\nWhat is ") # Using input() function is causing NameError. Changing it to raw_input() fixes this.
 
     k = k.replace(' ', '')
